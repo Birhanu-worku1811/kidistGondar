@@ -1,0 +1,418 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} html{
+    font-size: 16px;
+}
+
+header{
+    font-size: 30px;
+    text-align: center;
+    background-color: indigo;
+    width:100vw ;
+    height: 130px;
+}
+nav {
+    padding-top: 30px;
+    word-spacing: 70px;
+    text-align: center;
+    list-style-type:none;
+    font-size: 30px;
+}
+li{
+    display: inline-block;
+}
+a,h1{ 
+    color: white;
+    text-decoration: none;
+}
+a:visited,
+a:active,
+a:focus {
+        color:lightblue;
+    }
+a:hover{
+    background-color: hotpink;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;  
+}
+.home-text{
+    position: absolute;bottom: 450px;
+    font-size: 40px;
+    width: fit-content;
+    height: fit-content;
+    color: gold;
+}
+.homeimg{
+    width: 100%;
+    height:700px;
+    background-repeat: no-repeat;
+    background-color:black;
+    
+}
+
+/*-------------------footer----------------------------*/
+footer{
+       position: absolute;
+       bottom:calc('100vh-50vh');
+       right: 0;
+        background-color: #333;
+        color: #fff;
+        height: 150px;
+        width: 100%;
+        font-size: 25px;
+        padding-top: 50px;
+        text-align: center;
+}
+.gallary-footer{
+    position: absolute;
+    bottom:-150vh;
+    right: 0;
+     background-color: #333;
+     color: #fff;
+     height: 150px;
+     width: 100%;
+     font-size: 25px;
+     padding-top: 50px;
+     text-align: center;
+}
+
+/* -------------------------gallary section--------------------------------------   */
+
+.gallary-class{
+width :100vw;
+height: 100vh;
+margin: 10px;
+}
+#gallary-image{
+margin: 30px;
+border: 2px solid black;
+float :left;
+}
+img.size{
+    width: 400px;
+    height: 350px;
+    margin: 30px;
+    border: 2px solid black;
+    float: left;
+    opacity: 0.5;
+}
+img.size:hover{
+    opacity: 1;
+    border: 5px solid rgb(180, 1, 120);
+    box-shadow: 10px 10px 10px  #051efff6;
+    width: 600px;
+    height: 500px;
+    float: left;
+}
+aside{
+    background-color: lightyellow;
+    border: 2px solid black;
+    width:20%;
+    height: 500px;
+    position: absolute;
+    top:150px;
+    right:100px;
+}
+
+    /* ---------------------history section------------------------------*/
+    .article-class{
+        background-color: lavender;
+        margin: auto;
+        padding: 30px;
+        width:850px;
+        height:800px;
+        border: 1px solid black;
+        font-size: 20px;
+        margin-bottom: 100px;
+       
+ 
+    }
+    h1.shadow{
+        font-size: 60px;
+        text-align: center;
+        text-shadow: 1px 2px black;
+        color:magenta;
+        text-transform: uppercase;
+    }
+    .article-image{
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        margin-top: 20px;
+
+    }a.see-more-link{
+        font-size: 20px;
+        float:left;
+        text-shadow: 1px 2px black;
+        color:magenta;
+        text-transform: uppercase;
+    }
+    /*--------------------------location section-----------------------*/
+    .whole-location{
+        width: 1300px;
+        margin: auto;
+    }
+    .form-location{
+        margin-top: 20px;
+        border:1px solid black;
+        width: 1300px;
+        height:500px;
+        background-color: powderblue;
+        z-index:-1;
+    }
+    .location-1{
+        background-image: url('/img/fasil-2.jpg');
+        width: 600px;
+        height: 450px;
+        margin-left:20px ;
+        float: right;
+    }
+    .location-2{
+        background-image: url('/img/fasil-3.jpg');
+        width: 600px;
+        height: 450px;
+        margin-left:20px ;
+        float: right;
+    }
+    .location-3{
+        background-image: url('/img/debre-birhan-selassie-church-ceiling_small1.jpg');
+        width: 600px;
+        height: 450px;
+        margin-left:20px ;
+        float: right;
+    }
+    .location-4{
+        background-image: url('/img/download (6).jpg');
+        width: 600px;
+        height: 450px;
+        margin-left:20px ;
+        float: right;
+}
+    /*------------------------------------contact section-------------------------------------*/
+    .whole{height: 800px;
+        background-color: #4CAF50;
+        border: 1px solid black;   
+
+    }
+    input[type=text], select, textarea {
+    width: 500px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 25px;
+  }
+  
+  label {
+    padding: 20px 20px 20px 0;
+    display: inline-block;
+    font-size: 30px;
+  }
+  
+  input[type=submit] {
+    
+    color: black;
+    padding: 30px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:left;
+    font-size: 25px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(255, 4, 192);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color:rgb(40, 189, 164);
+    padding: 20px;
+   
+  } 
+  /* Clear floats after the columns */
+  .row-class:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.contact-image{
+    position: absolute;
+    top:210px;
+    border: 1px solid black;
+    right:400px;
+    
+}
+.cont-img{
+    width:1000px;
+    height:500px;
+    opacity: 1;
+}
+  /********************************************************************************************  
+  Responsive layout by css ---@media quereis   
+             This website has been devoloped around a mobile-first approach 
+
+   ********************************************************************************************/
+
+
+
+@media only screen and (max-width: 768px) {
+header, nav,li,h1,a{
+    width: 100%;
+    display: block;
+    text-align: center;
+   }
+   header li {
+    display: block;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;  
+}
+header{
+    font-size: 20px;
+    height: 400px;
+}
+.homeimg{
+    width: 100%;
+    float:none;
+}
+.home-text{
+    font-size: 20px;
+   width:100px;
+   
+}
+/* footer */
+footer{
+     height: 220px;
+     max-width: 100%;
+     font-size: 20px;
+     padding-top: 50px;
+     text-align: center;
+     float: none;
+}
+/****************************** history section **********************************/
+   .article-class{
+    margin: 10px;
+    padding: 10px;
+    width: 320px;
+    height: 950px;
+}
+.article-image{
+    width: 300px;
+    height: 250px;
+    float:left
+}
+
+a.see-more-link{
+        float:none;
+    }
+    h1.shadow{
+        font-size: 30px;
+    }
+/************************gallary section********************************** */
+img.size{
+        padding:0px;
+        margin:10px ;
+        max-width: 300px;
+        max-height: 250px;
+        float: none;
+    }
+/******************************location section*******************************/
+.form-location{
+    margin-left: 20px;
+    max-width: 300px;
+    height: 800px;
+}
+iframe{
+    max-width: 300px;
+    max-height: 400px;
+    padding: 10px;
+}
+.location-1,.location-2,
+ .location-3,.location-4{
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+    margin: 0px;
+}
+/***************************contact section**********************************/
+
+input[type=text], select, textarea {
+    width:300px;
+    margin-top: 0;
+    font-size: 15px;
+}
+.container{
+padding: 10px;
+}
+label,input{
+    display: block;
+
+}
+.contact-image{
+    display: none;
+    float: right;
+}
+}
+
+/***********************************************************************************************
+                          for size between 768-1394px
+
+************************************************************************************************/
+@media screen and (min-width: 769px) and (max-width: 1392px) {
+
+.home-text,.p-media{
+    width:fit-content;
+    margin-top: 300px;
+}
+img.size{
+    padding:0px;
+    margin-left:150px ;
+    width: 600px;
+    height: 450px;
+    float: left;
+}
+.gallary-footer{
+    position: absolute;
+    bottom:-1650vh;
+    
+
+}
+/* *******************************************************************/
+.form-location{
+    margin-left:40px;
+    width: 900px;
+    height: 500px;
+}
+iframe{
+    max-width: 400px;
+    max-height: 500px;
+    padding: 20px;
+}
+.location-1,.location-2,
+ .location-3,.location-4{
+    max-width: 400px;
+    max-height: 400px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+/***********************************/
+.cont-img{
+    width:500px;
+    height:700px;
+    float: right;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    
+}
+input[type=text], select, textarea {
+    width: 400px;
+    padding: 12px;
+    font-size: 25px;
+  }
+}
